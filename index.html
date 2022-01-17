@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Ejercicios</title>
+</head>
+<body>
+
+    <din class="contenedor">
+
+       <!--  Ejercicio número 1 -->
+
+        <div class="box">
+            <h2>EJERCICIO 1</h2>
+            <input id="palabra" type="text" name="" placeholder="Ingrese una palabra." autocomplete="off">
+            <button id="btn-uno" name="button" >OK</button>
+            <div class="box-resultado">
+                <h3 id="resultado-cantidad"></h3>
+                <h3 id="resultado-orden"></h3>
+            </div>    
+        </div>
+
+        <!--  Ejercicio número 2 -->
+
+        <div class="box">
+            <h2>EJERCICIO 2</h2>
+            <input id="palabra-separar" type="text" name="" placeholder="Ingrese una palabra." autocomplete="off">
+            <button  id="btn-dos" name="button" >OK</button>
+            <div class="box-resultado">
+                <h3 id="resultado-silaba"></h3>
+            </div>   
+        </div>
+
+        <!--  Ejercicio número 3 -->
+
+        <div class="box">
+            <h2>EJERCICIO 3</h2>
+            <input id="pass" type="text" name="" placeholder="Ingrese una Contraseña" autocomplete="off">
+            <button  id="btn-tres" name="button" onclick="ejercicioTres()" >OK</button>
+            <div id="mensaje" class="box-resultado">
+                
+                
+            </div> 
+
+        </div>
+
+    </din>
+  
+  <script src="libreria/silabajs.js"></script>
+  <script src="logica.js"></script>   
+</body>
+</html>
